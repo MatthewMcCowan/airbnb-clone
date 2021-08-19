@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-4 md:place-items-center mb-6 text-gray-600 max-w-7xl mx-auto px-8 sm:px-16">
+    <div className="grid grid-cols-1 md:grid-cols-4 md:place-items-center my-6 text-gray-600 max-w-7xl mx-auto px-8 sm:px-16">
       <div className="text-xs space-y-4 px-10 py-4 cursor-pointer">
         <h3 className="font-bold tracking-wider">ABOUT</h3>
         <p>How AirBnB Works</p>

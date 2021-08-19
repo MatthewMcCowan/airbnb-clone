@@ -8,16 +8,17 @@ import SmallCard from "../components/SmallCard";
 
 export default function Home({ exploreData, cardData }) {
   return (
-    <div className="">
+    <div className="relative">
       <Head>
         <title>AirBnB Clone React Nextjs App</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <header></header>
       {/* Header */}
       <Header />
       {/* Banner */}
       <Banner />
-      <main className="max-w-7xl mx-auto px-8 sm:px-16">
+      <main className="container mx-auto px-8 sm:px-16">
         <section className="pt-6">
           <h2 className="text-4xl font-semibold pb-4">Explore Nearby</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 mt-6">
